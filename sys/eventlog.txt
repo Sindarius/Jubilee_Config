@@ -1,0 +1,1031 @@
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=1
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 124, req type 6018, RID=3
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 124, req type 6043, RID=5
+power up + 00:00:04 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:10 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+Response timeout: CAN addr 124, req type 6042, RID=13
+power up + 00:00:11 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=15
+power up + 00:00:12 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:13 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=18
+power up + 00:00:14 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:14 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:14 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:14 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:14 [warn] Error: Fan number 1 not found
+power up + 00:00:14 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:14 [warn] Error: Fan number 5 not found
+power up + 00:00:15 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:15 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:15 [warn] Ethernet is disabled.
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=1
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 124, req type 6018, RID=3
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 124, req type 6043, RID=5
+power up + 00:00:04 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:10 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+Response timeout: CAN addr 124, req type 6042, RID=13
+power up + 00:00:11 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=15
+power up + 00:00:12 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:13 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=18
+power up + 00:00:14 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:14 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:14 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:14 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:14 [warn] Error: Fan number 1 not found
+power up + 00:00:14 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:14 [warn] Error: Fan number 5 not found
+power up + 00:00:15 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:15 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:22 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:30 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 20:41:17 [warn] Date and time set at power up + 00:00:30
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=1
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 124, req type 6018, RID=3
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 124, req type 6043, RID=5
+power up + 00:00:04 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:10 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+Response timeout: CAN addr 124, req type 6042, RID=13
+power up + 00:00:11 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=15
+power up + 00:00:12 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:13 [warn] Error: Response timeout: CAN addr 124, req type 6042, RID=18
+power up + 00:00:14 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:14 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:14 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:14 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:14 [warn] Error: Fan number 1 not found
+power up + 00:00:14 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:14 [warn] Error: Fan number 5 not found
+power up + 00:00:15 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:15 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:17 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:18 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 20:48:50 [warn] Date and time set at power up + 00:00:18
+2022-02-21 20:49:46 [warn] Error: M115: Response timeout: CAN addr 124, req type 6024, RID=23
+2022-02-21 20:50:08 [warn] Error: M952: missing parameter 'B'
+2022-02-21 20:50:26 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 123, req type 6042, RID=0
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 123, req type 6018, RID=2
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 123, req type 6043, RID=4
+power up + 00:00:04 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:10 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+Response timeout: CAN addr 123, req type 6042, RID=12
+power up + 00:00:11 [warn] Error: Response timeout: CAN addr 123, req type 6042, RID=14
+power up + 00:00:12 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:13 [warn] Error: Response timeout: CAN addr 123, req type 6042, RID=17
+power up + 00:00:14 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:14 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:14 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:14 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:14 [warn] Error: Fan number 1 not found
+power up + 00:00:14 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:14 [warn] Error: Fan number 5 not found
+power up + 00:00:15 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:15 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:17 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:20 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 20:50:41 [warn] Date and time set at power up + 00:00:20
+2022-02-21 20:50:47 [warn] Error: M115: Response timeout: CAN addr 123, req type 6024, RID=21
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+power up + 00:00:07 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:08 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:08 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:08 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:08 [warn] Error: Fan number 1 not found
+power up + 00:00:08 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:08 [warn] Error: Fan number 5 not found
+power up + 00:00:09 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:09 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:11 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:13 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 20:52:30 [warn] Date and time set at power up + 00:00:13
+2022-02-21 20:52:30 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:00:34 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+power up + 00:00:07 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:08 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:08 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:08 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:08 [warn] Error: Fan number 1 not found
+power up + 00:00:08 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:08 [warn] Error: Fan number 5 not found
+power up + 00:00:09 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:09 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:11 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:12 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:01:24 [warn] Date and time set at power up + 00:00:12
+2022-02-21 21:05:01 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+power up + 00:00:07 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:08 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:08 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:08 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:08 [warn] Error: Fan number 1 not found
+power up + 00:00:08 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:08 [warn] Error: Fan number 5 not found
+power up + 00:00:09 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:09 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:11 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:13 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:05:15 [warn] Date and time set at power up + 00:00:13
+2022-02-21 21:05:15 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:05:26 [warn] Error: Homing failed
+2022-02-21 21:05:34 [warn] Error: Homing failed
+2022-02-21 21:05:40 [warn] Error: Homing failed
+2022-02-21 21:05:55 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:06:00 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:01 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=6
+power up + 00:00:02 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=7
+power up + 00:00:03 [warn] Error: Response timeout: CAN addr 1, req type 6018, RID=8
+power up + 00:00:05 [warn] Error: Response timeout: CAN addr 1, req type 6043, RID=9
+Response timeout: CAN addr 1, req type 6043, RID=10
+power up + 00:00:06 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=11
+power up + 00:00:07 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=16
+power up + 00:00:08 [warn] Error: Response timeout: CAN addr 1, req type 6042, RID=19
+power up + 00:00:08 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:08 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:08 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:08 [warn] Error: Fan number 1 not found
+power up + 00:00:08 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:08 [warn] Error: Fan number 5 not found
+power up + 00:00:09 [warn] Error: Response timeout: CAN addr 1, req type 6044, RID=20
+power up + 00:00:09 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:11 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:13 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:06:17 [warn] Date and time set at power up + 00:00:13
+2022-02-21 21:06:17 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:07:03 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Error: in file macro line 88 column 10: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:00 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:00 [warn] Error: Fan number 1 not found
+power up + 00:00:00 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:00 [warn] Error: Fan number 5 not found
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:07:07 [warn] Date and time set at power up + 00:00:03
+2022-02-21 21:10:50 [warn] HTTP client 192.168.2.39 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Error: in file macro line 88 column 10: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Error: in file macro line 88 column 10: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:00 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:00 [warn] Error: Fan number 1 not found
+power up + 00:00:00 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:00 [warn] Error: Fan number 5 not found
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:18:33 [warn] Date and time set at power up + 00:00:04
+2022-02-21 21:18:34 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:22:40 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Error: in file macro line 88 column 10: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:00 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:00 [warn] Error: Fan number 1 not found
+power up + 00:00:00 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:00 [warn] Error: Fan number 5 not found
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:22:42 [warn] Date and time set at power up + 00:00:02
+2022-02-21 21:22:43 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:23:04 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-21 21:23:05 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:25:08 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Error: in file macro line 88 column 10: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:00 [warn] Error: Unknown pin name 'out8'
+power up + 00:00:00 [warn] Error: Fan number 1 not found
+power up + 00:00:00 [warn] Error: Unknown pin name 'out7'
+power up + 00:00:00 [warn] Error: Fan number 5 not found
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:25:12 [warn] Date and time set at power up + 00:00:03
+2022-02-21 21:25:13 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:28:42 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Error: Failed to initialise RTD: bad response from sensor
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:28:45 [warn] Date and time set at power up + 00:00:03
+2022-02-21 21:28:45 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:29:42 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:29:46 [warn] Date and time set at power up + 00:00:02
+2022-02-21 21:29:48 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:29:58 [warn] Error: Homing failed
+2022-02-21 21:30:24 [warn] Error: Homing failed
+2022-02-21 21:30:29 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:30:36 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:30:38 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:30:39 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:30:40 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:30:57 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-21 21:38:36 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:38:37 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:38:39 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:38:40 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:39:42 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:39:43 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:39:44 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:39:54 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:39:56 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 21:43:58 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.2.2 (2021-02-11)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 21: M350: array too long, max length = 1
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 614C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.247
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:44:00 [warn] Date and time set at power up + 00:00:02
+2022-02-21 21:50:38 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 19: M350: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 95 column 7: M201: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 97 column 26: M203: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 98 column 22: M566: array too long, max length = 0
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:06 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:03:39 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:03:56 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:54:59 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 19: M350: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 95 column 7: M201: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 97 column 26: M203: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 98 column 22: M566: array too long, max length = 0
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 21:55:03 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:00:46 [warn] Error: Homing failed
+2022-02-21 22:00:53 [warn] Error: Homing failed
+2022-02-21 22:01:02 [warn] Error: Homing failed
+2022-02-21 22:01:32 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 19: M350: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 95 column 7: M201: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 97 column 26: M203: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 98 column 22: M566: array too long, max length = 0
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:01:37 [warn] Date and time set at power up + 00:00:03
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 19: M350: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 95 column 7: M201: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 97 column 26: M203: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 98 column 22: M566: array too long, max length = 0
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:02:40 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:03:28 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:06:01 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Error: in file macro line 72 column 19: M350: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 95 column 7: M201: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 97 column 26: M203: array too long, max length = 0
+power up + 00:00:00 [warn] Error: in file macro line 98 column 22: M566: array too long, max length = 0
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:07:29 [info] Event logging stopped
+2022-02-21 22:07:29 [info] Event logging started at level warn
+2022-02-21 22:07:29 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+2022-02-21 22:07:29 [warn] Error: in file macro line 72 column 19: M350: array too long, max length = 0
+2022-02-21 22:07:29 [warn] Error: in file macro line 95 column 7: M201: array too long, max length = 0
+2022-02-21 22:07:29 [warn] Error: in file macro line 97 column 26: M203: array too long, max length = 0
+2022-02-21 22:07:29 [warn] Error: in file macro line 98 column 22: M566: array too long, max length = 0
+2022-02-21 22:07:29 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+2022-02-21 22:07:29 [warn] Warning: Macro file config-override.g not found
+2022-02-21 22:08:09 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:09:08 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:09:13 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:09:14 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:09:20 [info] Event logging stopped
+2022-02-21 22:09:20 [info] Event logging started at level warn
+2022-02-21 22:09:20 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+2022-02-21 22:09:20 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+2022-02-21 22:09:20 [warn] Warning: Macro file config-override.g not found
+2022-02-21 22:10:10 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-21 22:10:11 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:10:57 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-21 22:10:58 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:11:06 [warn] Error: Homing failed
+2022-02-21 22:11:45 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:12:21 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:12:48 [warn] Error: Homing failed
+2022-02-21 22:18:45 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:18:48 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:18:48 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:19:13 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:20:37 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:20:42 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:20:42 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:21:15 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:21:24 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:21:27 [warn] Error: Homing failed
+2022-02-21 22:22:32 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:22:40 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:24:22 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:24:27 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:24:27 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:24:43 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:24:56 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:25:07 [warn] Error: G0/G1: insufficient axes homed
+2022-02-21 22:28:58 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:29:02 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:29:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:29:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:29:26 [warn] Error: G0/G1: insufficient axes homed
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:35:14 [warn] Date and time set at power up + 00:00:03
+2022-02-21 22:35:15 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-21 22:35:15 [warn] HTTP client 192.168.2.39 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 05:57:35 [warn] Date and time set at power up + 00:00:03
+2022-02-22 05:57:35 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 05:57:36 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 05:58:03 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-22 05:59:59 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-22 06:13:05 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 06:30:45 [warn] Error: Homing failed
+2022-02-22 06:33:49 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 06:33:56 [warn] Date and time set at power up + 00:00:02
+2022-02-22 06:36:05 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 06:36:05 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 06:36:09 [warn] Date and time set at power up + 00:00:02
+2022-02-22 06:41:56 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 06:43:28 [warn] Error: Homing failed
+2022-02-22 06:43:44 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 06:43:49 [warn] Date and time set at power up + 00:00:03
+2022-02-22 06:44:55 [info] Event logging stopped
+2022-02-22 06:44:55 [info] Event logging started at level warn
+2022-02-22 06:44:55 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+2022-02-22 06:44:55 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+2022-02-22 06:44:55 [warn] Warning: Macro file config-override.g not found
+2022-02-22 06:49:05 [warn] HTTP client 192.168.2.41 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 06:52:25 [warn] Date and time set at power up + 00:00:02
+2022-02-22 06:52:53 [warn] HTTP client 192.168.2.41 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 06:55:37 [warn] Date and time set at power up + 00:00:03
+2022-02-22 06:55:37 [warn] HTTP client 192.168.2.215 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 07:04:33 [warn] Date and time set at power up + 00:00:03
+2022-02-22 07:04:33 [warn] HTTP client 192.168.2.41 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 07:19:39 [warn] Date and time set at power up + 00:00:03
+2022-02-22 07:19:42 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 07:26:59 [warn] Error: Homing failed
+2022-02-22 07:27:24 [warn] Error: Homing failed
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 07:27:32 [warn] Date and time set at power up + 00:00:02
+2022-02-22 07:27:32 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 07:28:44 [warn] Error: G0/G1: insufficient axes homed
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 07:28:49 [warn] Date and time set at power up + 00:00:02
+2022-02-22 07:28:49 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 07:34:02 [warn] Warning: VIN under-voltage event (9.5V)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:04 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:25:03 [warn] Date and time set at power up + 00:00:04
+2022-02-22 08:25:23 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 08:25:23 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:25:29 [warn] Date and time set at power up + 00:00:03
+2022-02-22 08:29:36 [warn] Warning: VIN under-voltage event (9.4V)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:06 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:30:08 [warn] Date and time set at power up + 00:00:06
+2022-02-22 08:31:14 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 08:31:35 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 08:31:49 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:31:14 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:31:24 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:31:28 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:33:52 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:33:57 [warn] Date and time set at power up + 00:00:03
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:35:43 [warn] Date and time set at power up + 00:00:03
+2022-02-22 08:35:59 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:39:35 [warn] Error: Homing failed
+2022-02-22 08:40:22 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:40:28 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:41:11 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:41:16 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:41:17 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:42:48 [warn] Error: M122: Response timeout: CAN addr 52, req type 6024, RID=52
+2022-02-22 08:42:59 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:43:03 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:43:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:43:49 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:43:53 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:44:22 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:45:05 [warn] Error: Homing failed
+2022-02-22 08:45:47 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:45:24 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:45:24 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:47:34 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:47:39 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:47:39 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:49:28 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:49:32 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:49:59 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:50:16 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 08:52:52 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:52:29 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:52:30 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:52:48 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 08:52:52 [warn] Date and time set at power up + 00:00:02
+2022-02-22 08:52:52 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 08:59:52 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 09:46:51 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:46:56 [warn] Date and time set at power up + 00:00:02
+2022-02-22 09:46:56 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:47:33 [info] Event logging stopped
+2022-02-22 09:47:33 [info] Event logging started at level warn
+2022-02-22 09:47:33 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+2022-02-22 09:47:33 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+2022-02-22 09:47:33 [warn] Warning: Macro file config-override.g not found
+2022-02-22 09:47:35 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:47:41 [warn] Date and time set at power up + 00:00:03
+2022-02-22 09:47:41 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:48:09 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:48:14 [warn] Date and time set at power up + 00:00:03
+2022-02-22 09:48:14 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:48:40 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:48:45 [warn] Date and time set at power up + 00:00:02
+2022-02-22 09:48:46 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:49:16 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:49:21 [warn] Date and time set at power up + 00:00:03
+2022-02-22 09:50:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:50:32 [info] Event logging stopped
+2022-02-22 09:50:32 [info] Event logging started at level warn
+2022-02-22 09:50:32 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+2022-02-22 09:50:32 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+2022-02-22 09:50:32 [warn] Warning: Macro file config-override.g not found
+2022-02-22 09:51:15 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:50:38 [warn] Date and time set at power up + 00:00:02
+2022-02-22 09:51:06 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:51:18 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:50:55 [warn] Date and time set at power up + 00:00:02
+2022-02-22 09:50:55 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:55:50 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:55:54 [warn] Date and time set at power up + 00:00:02
+2022-02-22 09:55:54 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:56:12 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 09:56:17 [warn] Date and time set at power up + 00:00:02
+2022-02-22 09:56:17 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:56:55 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 09:59:56 [warn] Date and time set at power up + 00:00:03
+2022-02-22 09:59:56 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:06:04 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:06:08 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:06:08 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:07:52 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:07:57 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:07:57 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:08:51 [warn] Error: G0/G1: insufficient axes homed
+2022-02-22 10:08:53 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:08:57 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:08:57 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:18:15 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:18:20 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:18:20 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:23:28 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:23:32 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:23:33 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:23:42 [warn] Error: Homing failed
+2022-02-22 10:24:00 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:24:05 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:24:35 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:27:25 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:26:59 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:26:59 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:27:37 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:27:41 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:27:41 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:29:13 [warn] Error: Cannot delete file 0:/sys/eventlog.txt because it is open
+2022-02-22 10:32:37 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:32:42 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:32:42 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:32:52 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:32:57 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:32:57 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:36:39 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:36:45 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:36:45 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:37:28 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:37:35 [warn] Date and time set at power up + 00:00:03
+2022-02-22 10:37:35 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:38:25 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:38:29 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:38:29 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:47:31 [warn] Leadscrew adjustments made: 1.166 -0.134 -0.413, points used 3, (mean, deviation) before (0.195, 0.645) after (-0.000, 0.000)
+2022-02-22 10:47:31 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 10:47:31 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:49:03 [warn] Date and time set at power up + 00:00:04
+2022-02-22 10:49:04 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:52:06 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:52:11 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:52:11 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:54:21 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:54:25 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:54:25 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:55:22 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:55:27 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:55:27 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:55:42 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 10:55:47 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:55:47 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:55:50 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 10:55:55 [warn] Date and time set at power up + 00:00:02
+2022-02-22 10:55:55 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 11:01:30 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 11:01:35 [warn] Date and time set at power up + 00:00:02
+2022-02-22 11:01:35 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 11:03:04 [warn] Error: Probe was not triggered during probing move
+2022-02-22 11:03:12 [warn] Error: Compensation or calibration cancelled due to probing errors
+2022-02-22 11:03:12 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:03:12 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:03:55 [warn] Error: Probe was not triggered during probing move
+2022-02-22 11:04:03 [warn] Error: Compensation or calibration cancelled due to probing errors
+2022-02-22 11:04:03 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:04:03 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:05:17 [warn] Leadscrew adjustments made: -0.083 0.046 -0.056, points used 3, (mean, deviation) before (-0.029, 0.049) after (-0.000, 0.000)
+2022-02-22 11:05:17 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:05:17 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:06:51 [warn] Leadscrew adjustments made: -0.002 -0.008 -0.007, points used 3, (mean, deviation) before (-0.006, 0.003) after (-0.000, 0.000)
+2022-02-22 11:06:51 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:06:51 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:08:00 [warn] Leadscrew adjustments made: -0.001 0.001 -0.000, points used 3, (mean, deviation) before (0.000, 0.001) after (-0.000, 0.000)
+2022-02-22 11:08:00 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:08:39 [warn] Error: G29: No valid grid defined for bed probing
+2022-02-22 11:10:24 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 11:10:28 [warn] Date and time set at power up + 00:00:02
+2022-02-22 11:10:28 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 11:11:32 [warn] Leadscrew adjustments made: -0.006 -0.011 -0.009, points used 3, (mean, deviation) before (-0.009, 0.002) after (-0.000, 0.000)
+2022-02-22 11:11:32 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:11:32 [warn] Error: Failed to load height map from file 0:/sys/heightmap.csv: bad header line or wrong version header
+2022-02-22 11:13:45 [warn] 25 points probed, min error -0.112, max error 0.069, mean -0.006, deviation 0.042
+Height map saved to file 0:/sys/heightmap.csv
+2022-02-22 11:17:12 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-22 11:17:13 [warn] HTTP client 192.168.2.39 login succeeded
