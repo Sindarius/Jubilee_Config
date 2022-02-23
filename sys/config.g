@@ -46,7 +46,6 @@ M569 P50.0 D2 S0                 ; Drive 0 | X stepper
 M569 P51.0 D2 S0                 ; Drive 1 | Y Stepper
 M917 X0 Y0                       ;Hold Current
 M584 X50.0 Y51.0                ; X and Y for CoreXY
-M584 Z0.2:0.3:0.4               ; Z has three drivers for kinematic bed suspension. 
 M906 X400 ;{1.8*sqrt(2)*2000}  ; LDO XY 2000mA RMS the TMC5160 driver on duet3
 M906 Y400 ;{1.8*sqrt(2)*2000}  ; generates a sinusoidal coil current so we can 
                           ; multply by sqrt(2) to get peak used for M906
@@ -60,6 +59,7 @@ M906 U{0.7*sqrt(2)*670} I60 ; 70% of 670mA RMS idle 60%
                             ; Note that the idle will be shared for all drivers
 
 ;## Z - Check Motor Order - Facing from board side of the machine## 
+M584 Z0.2:0.3:0.4               ; Z has three drivers for kinematic bed suspension. 
 M569 P0.2 S0                ; Drive 2 | Front Left Z
 M569 P0.3 S0                ; Drive 3 | Back
 M569 P0.4 S0                ; Drive 4 | Front Right
@@ -93,7 +93,7 @@ M92 X{1/(1.8*16/180)}  ; step angle * tooth count / 180
 M92 Y{1/(1.8*16/180)}  ; The 2mm tooth spacing cancel out with diam to radius
 
 
-M92 Z{360/0.9/2}       ; 0.9 deg stepper / lead (2mm) of screw 
+M92 Z{360/0.9/4}       ; 0.9 deg stepper / lead (2mm) of screw  4 start vs 2 start
 M92 U{13.76/1.8}       ; gear ration / step angle for tool lock geared motor.
 ;M92 E51.875            ; Extruder - BMG 0.9 deg/step
 

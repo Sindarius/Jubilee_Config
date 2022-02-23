@@ -1029,3 +1029,172 @@ power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
 Height map saved to file 0:/sys/heightmap.csv
 2022-02-22 11:17:12 [warn] HTTP client 192.168.2.39 disconnected
 2022-02-22 11:17:13 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 11:25:02 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-22 11:27:07 [warn] Leadscrew adjustments made: -0.016 -0.004 -0.009, points used 3, (mean, deviation) before (-0.010, 0.005) after (0.000, 0.000)
+2022-02-22 11:29:20 [warn] 25 points probed, min error -0.113, max error 0.065, mean -0.007, deviation 0.042
+Height map saved to file 0:/sys/heightmap.csv
+2022-02-22 11:36:52 [warn] HTTP client 192.168.2.215 disconnected
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:33 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 11:54:34 [warn] Leadscrew adjustments made: 0.007 -0.016 -0.001, points used 3, (mean, deviation) before (-0.004, 0.009) after (-0.000, 0.000)
+2022-02-22 11:57:09 [warn] 25 points probed, min error -0.104, max error 0.049, mean -0.010, deviation 0.037
+Height map saved to file 0:/sys/heightmap.csv
+2022-02-22 12:08:13 [warn] Leadscrew adjustments made: -0.007 -0.006 -0.006, points used 3, (mean, deviation) before (-0.006, 0.000) after (0.000, 0.000)
+2022-02-22 12:08:16 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 12:08:22 [warn] Date and time set at power up + 00:00:03
+2022-02-22 12:09:34 [warn] Leadscrew adjustments made: 0.423 0.439 -1.479, points used 3, (mean, deviation) before (-0.185, 0.866) after (-0.000, 0.000)
+2022-02-22 12:35:42 [warn] Leadscrew adjustments made: 0.006 -0.021 0.004, points used 3, (mean, deviation) before (-0.004, 0.011) after (0.000, 0.000)
+2022-02-22 13:06:22 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 13:21:07 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 13:22:11 [warn] Leadscrew adjustments made: 0.301 -0.110 -0.053, points used 3, (mean, deviation) before (0.043, 0.171) after (-0.000, 0.000)
+2022-02-22 13:23:52 [warn] Leadscrew adjustments made: 0.276 -0.124 0.001, points used 3, (mean, deviation) before (0.048, 0.154) after (0.000, 0.000)
+2022-02-22 13:26:31 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 13:26:35 [warn] Date and time set at power up + 00:00:02
+2022-02-22 13:28:23 [warn] Leadscrew adjustments made: -0.009 -0.014 -0.020, points used 3, (mean, deviation) before (-0.015, 0.004) after (-0.000, 0.000)
+2022-02-22 13:30:39 [warn] 25 points probed, min error -0.194, max error 0.076, mean -0.014, deviation 0.062
+Height map saved to file 0:/sys/heightmap.csv
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 13:31:40 [warn] Date and time set at power up + 00:00:04
+2022-02-22 13:31:40 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 13:32:48 [warn] Error: Probe already triggered at start of probing move
+2022-02-22 13:33:09 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:33:09 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:35:22 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:35:22 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:36:49 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:36:49 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:37:26 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:39:37 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:39:37 [warn] Error: Probe was not triggered during probing move
+2022-02-22 13:40:45 [warn] Leadscrew adjustments made: -0.793 0.798 -1.244, points used 3, (mean, deviation) before (-0.383, 0.776) after (-0.000, 0.000)
+2022-02-22 13:45:10 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-22 13:51:29 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 13:57:23 [warn] HTTP client 192.168.2.39 disconnected
+2022-02-22 14:03:14 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-22 14:04:05 [warn] Leadscrew adjustments made: -0.007 -0.014 -0.015, points used 3, (mean, deviation) before (-0.012, 0.003) after (0.000, 0.000)
+2022-02-22 15:20:12 [warn] Leadscrew adjustments made: -0.016 -0.007 -0.012, points used 3, (mean, deviation) before (-0.012, 0.003) after (0.000, 0.000)
+2022-02-22 15:34:14 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 15:34:32 [warn] HTTP client 192.168.2.215 disconnected
+2022-02-22 15:36:38 [warn] Leadscrew adjustments made: -0.049 -0.040 -0.038, points used 3, (mean, deviation) before (-0.042, 0.005) after (-0.000, 0.000)
+2022-02-22 15:43:57 [warn] 25 points probed, min error -0.194, max error 0.071, mean -0.033, deviation 0.063
+Height map saved to file 0:/sys/heightmap.csv
+2022-02-22 21:07:43 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-22 21:49:27 [warn] HTTP client 192.168.2.41 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-22 22:04:42 [warn] Date and time set at power up + 00:00:03
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:28:19 [warn] Date and time set at power up + 00:00:03
+2022-02-23 07:37:46 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:38:45 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:38:53 [warn] Date and time set at power up + 00:00:03
+2022-02-23 07:38:53 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:39:00 [warn] HTTP client 192.168.2.215 disconnected
+2022-02-23 07:39:01 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:39:33 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:39:38 [warn] Date and time set at power up + 00:00:02
+2022-02-23 07:40:12 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:41:00 [warn] HTTP client 192.168.2.215 disconnected
+2022-02-23 07:41:01 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:41:15 [warn] HTTP client 192.168.2.215 disconnected
+2022-02-23 07:41:16 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:41:51 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:41:25 [warn] Date and time set at power up + 00:00:02
+2022-02-23 07:41:25 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:42:34 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:42:41 [warn] Date and time set at power up + 00:00:02
+2022-02-23 07:42:41 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:42:47 [warn] HTTP client 192.168.2.215 disconnected
+2022-02-23 07:42:48 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:50:23 [warn] HTTP client 192.168.2.41 login succeeded
+2022-02-23 07:51:00 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:51:03 [warn] Date and time set at power up + 00:00:02
+2022-02-23 07:51:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:51:41 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:51:48 [warn] Date and time set at power up + 00:00:03
+2022-02-23 07:51:48 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:52:53 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:52:56 [warn] Date and time set at power up + 00:00:02
+2022-02-23 07:52:56 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:54:54 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc1 (2022-02-09 10:27:22)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Macro file config-override.g not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.251
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-02-23 07:55:01 [warn] Date and time set at power up + 00:00:02
+2022-02-23 07:55:01 [warn] HTTP client 192.168.2.215 login succeeded
+2022-02-23 07:56:52 [warn] HTTP client 192.168.2.39 login succeeded
