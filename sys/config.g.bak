@@ -36,18 +36,18 @@ M83                        ; ...but relative extruder moves
 
 
 ;Configure Closed Loop 
-M569.1 P50.0 T0                ; Drive 0 | X stepper
-M569.1 P51.0 T0                ; Drive 1 | Y Stepper
+M569.1 P50.0 T2 C5 R200 I0 D0.13 H50          ; Drive 0 | X stepper 1000PPR
+M569.1 P51.0 T2 C5 R200 I0 D0.13 H50          ; Drive 1 | Y Stepper 1000PPR
 
 ;Configure Stepper
 
 ;## XY ##
-M569 P50.0 D2 S0                 ; Drive 0 | X stepper
-M569 P51.0 D2 S0                 ; Drive 1 | Y Stepper
-M917 X0 Y0                       ;Hold Current
+M569 P50.0 D2 S1                 ; Drive 0 | X stepper Start in SpreadCycle
+M569 P51.0 D2 S1                 ; Drive 1 | Y Stepper Start in SpreadCycle
+M917 X80 Y80                       ;Hold Current
 M584 X50.0 Y51.0                ; X and Y for CoreXY
-M906 X400 ;{1.8*sqrt(2)*2000}  ; LDO XY 2000mA RMS the TMC5160 driver on duet3
-M906 Y400 ;{1.8*sqrt(2)*2000}  ; generates a sinusoidal coil current so we can 
+M906 X1400 ;{1.8*sqrt(2)*2000}  ; LDO XY 2000mA RMS the TMC5160 driver on duet3
+M906 Y1400 ;{1.8*sqrt(2)*2000}  ; generates a sinusoidal coil current so we can 
                           ; multply by sqrt(2) to get peak used for M906
                           ; Do not exceed 90% without heatsinking the XY 
                           ; steppers.
@@ -66,6 +66,26 @@ M569 P0.4 S0                ; Drive 4 | Front Right
 ;M906 Z{0.7*sqrt(2)*1680}  ; 70% of 1680mA RMS
 M906 Z1000  ; 70% of 1680mA RMS
 
+
+;## TOOLS T0 = 20
+M584 E20.0:21.0    ;Extruder
+M569 P20.0 S1 ; Direction
+M569 P21.0 S0 ;Reversed the wiring on this one
+
+;#tool movement
+M350 E16:16 I1           ;microstepping
+M92 E690:690			  ;steps
+M203 E7200:7200            ;max feed rate
+M566 E400:400             ;jerk
+M201 E10000:10000           ;max accel
+M906 E1000:1000 I10        ;Current (I Idle%)
+M572 D0:1 S0.45            ;Pressure Advance
+M207 S1.0 F7200 Z0.2  ;Firmware retraction
+
+
+
+
+
 ; Kinematics
 ;-------------------------------------------------------------------------------
 M669 K1                   ; CoreXY mode
@@ -80,7 +100,7 @@ M671 x297.5:150:2.5 y313.5:-16.5:313.5 S10 ; Front Left: (297.5, 313.5)
 
 
 ; Probing
-M557 X50:250 Y50:250 S50
+M557 X50:250 Y50:250 P5
 
 ; Axis and motor configuration 
 ;-------------------------------------------------------------------------------
@@ -93,7 +113,7 @@ M92 X{1/(1.8*16/180)}  ; step angle * tooth count / 180
 M92 Y{1/(1.8*16/180)}  ; The 2mm tooth spacing cancel out with diam to radius
 
 
-M92 Z{360/0.9/4}       ; 0.9 deg stepper / lead (2mm) of screw 
+M92 Z{360/0.9/4}       ; 0.9 deg stepper / lead (2mm) of screw  4 start vs 2 start
 M92 U{13.76/1.8}       ; gear ration / step angle for tool lock geared motor.
 ;M92 E51.875            ; Extruder - BMG 0.9 deg/step
 
@@ -105,7 +125,7 @@ M350 Z16 I1            ; 16x microstepping for Z axes. Use interpolation.
 
 ; Speed and acceleration
 ;-------------------------------------------------------------------------------
-M201 X1100 Y1100                        ; Accelerations (mm/s^2)
+M201 X800 Y800                        ; Accelerations (mm/s^2) 11000 default
 M201 Z100                               ; LDO ZZZ Acceleration
 M201 U800                               ; LDO U Accelerations (mm/s^2)
 
@@ -141,7 +161,16 @@ G31 K0 X0 Y0 Z-2    ; Set the limit switch position as the  "Control Point."
 M208 X-13.75:313.75 Y-44:341 Z0:295
 M208 U0:200            ; Set Elastic Lock (U axis) max rotation angle
 
+;# GLOBALS
+if exists(global.fanCount)
+	set global.fanCount = -1
+else
+	global fanCount = -1
 
+if exists(global.heaterIndex)
+	set global.heaterIndex = 0
+else 
+	global heaterIndex = 0 ;Bed is at zero
 
 ; Heaters and temperature sensors
 ;-------------------------------------------------------------------------------
@@ -157,38 +186,8 @@ M307 H0 A589.8 C589.8 D2.2 V24.1 B0 ; Keenovo 750w 230v built in thermistor
 M140 H0                             ; Assign H0 to the bed
 
 
-; Tools
-; Heaters and sensors must be wired to main board for PID tuning (3.2.0-beta4)
-;M308 S1 P"spi.cs1" Y"rtd-max31865" A"Heater0" ; PT100 on main board
-;M950 H1 C"0.out3" T1                      ; Heater for extruder out tool 0
-;M307 H1 A811.4 C309.4 D4.7 V24.0 B0       ; With sock
-;M143 H1 S300                              ; Maximum temp for hotend to 300C
-
-
-; Fans
-;-------------------------------------------------------------------------------
-
-;M950 F1 C"0.out8"
-;M106 P1 S255 H1 T45 C"HeatBreakCool0" ; S = Speed of fan Px
-                                      ; Hxx = heater for thermo mode
-                                      ; T = temps for thermo mode.
-;M950 F5 C"0.out7"
-;M106 P5 C"PrintCool0"
-
-; Tool definitions
-;-------------------------------------------------------------------------------
-;M563 P0 S"Tool 0" D0 H1 F5  ; Px = Tool number
-                            ; Dx = Drive Number
-                            ; H1 = Heater Number
-                            ; Fx = Fan number print cooling fan
-;G10  P0 S0 R0               ; Set tool 0 operating and standby temperatures
-                            ; (-273 = "off")
-;M572 D0 S0.085              ; Set pressure advance
-
-;M563 P1 S"Tool 1"
-
-
-;M98  P"/sys/Toffsets.g"     ; Set tool offsets from the bed
+M98 P"Tools/BabyBullet.g" B20 T0 S"Tool 0" X0.172 Y33.25 Z-2.05
+M98 P"Tools/BabyBullet.g" B21 T1 S"Tool 1" X-0.3 Y32.93 Z-2.23
 
 
 M501                        ; Load saved parameters from non-volatile memory
