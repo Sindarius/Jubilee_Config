@@ -11,7 +11,3 @@ G4 P500				;Dwell 500ms
 ;Turn on HCL #51
 M569 P51.0 D4       ;Turn on Closed Loop Mode
 M569.6 P51.0 V31    ;Perform tuning move
-
-
-
-

@@ -17646,3 +17646,1285 @@ power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
 2022-03-14 10:04:44 [warn] HTTP client 192.168.2.39 disconnected
 2022-03-14 10:04:45 [warn] HTTP client 192.168.2.39 disconnected
 2022-03-14 10:05:09 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:26:28 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 10:28:45 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:42:36 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 10:42:37 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:45:08 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 10:45:09 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:45:51 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 10:46:10 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:50:51 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:54:09 [warn] Error: Failed to switch off remote heater 1: 
+2022-03-14 10:54:09 [warn] Error: Failed to switch off remote heater 2: 
+2022-03-14 10:54:09 [warn] Cancelled printing file 0:/gcodes/2_cube_xyz-cube-test-20mm (1).gcode, print time was 1h 12m
+2022-03-14 10:54:09 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:54:13 [warn] Date and time set at power up + 00:00:02
+2022-03-14 10:54:17 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 10:54:21 [warn] HTTP client 192.168.2.39 disconnected
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 11:39:56 [warn] Date and time set at power up + 00:00:03
+2022-03-14 11:40:19 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-14 11:41:08 [warn] Leadscrew adjustments made: -0.080 -0.083 -0.086, points used 3, (mean, deviation) before (-0.083, 0.002) after (-0.000, 0.000)
+2022-03-14 11:42:46 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 11:44:24 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-14 12:39:56 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:40:01 [warn] Date and time set at power up + 00:00:02
+2022-03-14 12:40:01 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:40:54 [warn] Leadscrew adjustments made: -0.086 -0.080 -0.098, points used 3, (mean, deviation) before (-0.088, 0.007) after (-0.000, 0.000)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:48:13 [warn] Date and time set at power up + 00:00:03
+2022-03-14 12:48:14 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:49:49 [warn] Leadscrew adjustments made: -0.070 -0.055 -0.046, points used 3, (mean, deviation) before (-0.057, 0.010) after (-0.000, 0.000)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:53:00 [warn] Date and time set at power up + 00:00:03
+2022-03-14 12:53:01 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:53:13 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-14 12:53:55 [warn] Leadscrew adjustments made: -0.066 -0.066 -0.042, points used 3, (mean, deviation) before (-0.058, 0.011) after (0.000, 0.000)
+2022-03-14 12:56:55 [warn] Warning: VIN under-voltage event (9.2V)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-14 12:57:03 [warn] Date and time set at power up + 00:00:02
+2022-03-14 12:57:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:57:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 12:59:08 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-14 13:00:01 [warn] Leadscrew adjustments made: -0.063 -0.064 -0.070, points used 3, (mean, deviation) before (-0.066, 0.003) after (0.000, 0.000)
+2022-03-14 13:10:12 [warn] Leadscrew adjustments made: -0.082 -0.076 -0.099, points used 3, (mean, deviation) before (-0.085, 0.009) after (-0.000, 0.000)
+2022-03-14 13:27:14 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:27:20 [warn] Date and time set at power up + 00:00:02
+2022-03-14 13:27:20 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:28:31 [warn] Leadscrew adjustments made: -0.062 -0.082 -0.105, points used 3, (mean, deviation) before (-0.082, 0.017) after (-0.000, 0.000)
+2022-03-14 13:29:53 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:29:59 [warn] Date and time set at power up + 00:00:03
+2022-03-14 13:29:59 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:30:36 [warn] Leadscrew adjustments made: -0.084 -0.084 -0.086, points used 3, (mean, deviation) before (-0.085, 0.001) after (-0.000, 0.000)
+2022-03-14 13:35:28 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:35:32 [warn] Date and time set at power up + 00:00:02
+2022-03-14 13:35:32 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:36:25 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:36:28 [warn] Date and time set at power up + 00:00:02
+2022-03-14 13:36:57 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:37:45 [warn] Leadscrew adjustments made: -0.082 -0.084 -0.084, points used 3, (mean, deviation) before (-0.084, 0.001) after (0.000, 0.000)
+2022-03-14 13:40:24 [warn] Error: M569: Driver number 51 out of range
+2022-03-14 13:48:17 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:47:53 [warn] Date and time set at power up + 00:00:02
+2022-03-14 13:47:53 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:48:36 [warn] Leadscrew adjustments made: -0.081 -0.086 -0.080, points used 3, (mean, deviation) before (-0.082, 0.002) after (-0.000, 0.000)
+2022-03-14 13:53:36 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:53:40 [warn] Date and time set at power up + 00:00:03
+2022-03-14 13:53:40 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:54:19 [warn] Leadscrew adjustments made: -0.085 -0.082 -0.085, points used 3, (mean, deviation) before (-0.084, 0.001) after (-0.000, 0.000)
+2022-03-14 13:58:58 [warn] Error: M569.5: Closed loop data is already being collected; the file will now be closed
+2022-03-14 13:59:04 [warn] Error: M569.5: Driver is already collecting data
+2022-03-14 13:59:08 [warn] Error: M569.5: Driver is already collecting data
+2022-03-14 13:59:38 [warn] Error: M569.5: Driver is already performing tuning
+2022-03-14 13:59:40 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 13:59:46 [warn] Date and time set at power up + 00:00:03
+2022-03-14 13:59:47 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:19:05 [warn] Leadscrew adjustments made: -0.082 -0.087 -0.083, points used 3, (mean, deviation) before (-0.084, 0.002) after (-0.000, 0.000)
+2022-03-14 14:40:22 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:40:27 [warn] Date and time set at power up + 00:00:04
+2022-03-14 14:40:27 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:42:13 [warn] Leadscrew adjustments made: -0.086 -0.084 -0.087, points used 3, (mean, deviation) before (-0.086, 0.001) after (0.000, 0.000)
+2022-03-14 14:45:36 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:45:41 [warn] Date and time set at power up + 00:00:03
+2022-03-14 14:45:42 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:46:06 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:46:09 [warn] Date and time set at power up + 00:00:02
+2022-03-14 14:46:09 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 14:47:40 [warn] Leadscrew adjustments made: -0.086 -0.086 -0.085, points used 3, (mean, deviation) before (-0.085, 0.000) after (-0.000, 0.000)
+2022-03-14 14:56:08 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-14 15:12:50 [warn] Leadscrew adjustments made: -0.105 -0.087 -0.065, points used 3, (mean, deviation) before (-0.086, 0.016) after (0.000, 0.000)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:19:01 [warn] Date and time set at power up + 00:00:02
+2022-03-14 15:19:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:24:03 [warn] Leadscrew adjustments made: -0.075 -0.092 -0.082, points used 3, (mean, deviation) before (-0.083, 0.006) after (-0.000, 0.000)
+2022-03-14 15:25:48 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:25:55 [warn] Date and time set at power up + 00:00:03
+2022-03-14 15:26:02 [warn] HTTP client 192.168.2.39 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:06 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:50:43 [warn] Date and time set at power up + 00:00:06
+2022-03-14 15:50:43 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:52:05 [warn] Leadscrew adjustments made: -0.070 -0.093 -0.079, points used 3, (mean, deviation) before (-0.081, 0.008) after (-0.000, 0.000)
+2022-03-14 15:55:22 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:55:26 [warn] Date and time set at power up + 00:00:02
+2022-03-14 15:55:27 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 15:56:11 [warn] Leadscrew adjustments made: -0.085 -0.081 -0.085, points used 3, (mean, deviation) before (-0.083, 0.001) after (-0.000, 0.000)
+2022-03-14 15:56:41 [warn] Error: M569.5: Closed loop data is already being collected; the file will now be closed
+2022-03-14 16:00:56 [warn] Error: M569.5: Closed loop data is already being collected; the file will now be closed
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] Error: M569.5: Closed loop data is already being collected; the file will now be closed
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:05:05 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:05:10 [warn] Error: M569.5: Driver is already collecting data
+2022-03-14 16:05:12 [warn] Error: M569.5: Driver is already collecting data
+2022-03-14 16:05:15 [warn] Error: M569.5: Driver is already collecting data
+2022-03-14 16:05:16 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:05:20 [warn] Date and time set at power up + 00:00:02
+2022-03-14 16:05:20 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:06:08 [warn] Leadscrew adjustments made: -0.086 -0.081 -0.085, points used 3, (mean, deviation) before (-0.084, 0.002) after (0.000, 0.000)
+2022-03-14 16:15:09 [warn] Error: M569.5: Closed loop data is already being collected; the file will now be closed
+2022-03-14 16:19:30 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:19:36 [warn] Date and time set at power up + 00:00:03
+2022-03-14 16:19:37 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:20:29 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:20:32 [warn] Date and time set at power up + 00:00:02
+2022-03-14 16:20:32 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:21:28 [warn] Leadscrew adjustments made: -0.086 -0.083 -0.085, points used 3, (mean, deviation) before (-0.085, 0.001) after (-0.000, 0.000)
+2022-03-14 16:22:06 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:22:11 [warn] Date and time set at power up + 00:00:03
+2022-03-14 16:22:47 [warn] Error: Cannot delete file /sys/homeall.g because it is open
+2022-03-14 16:23:10 [warn] Leadscrew adjustments made: -0.084 -0.084 -0.084, points used 3, (mean, deviation) before (-0.084, 0.000) after (-0.000, 0.000)
+2022-03-14 16:23:47 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 16:24:04 [warn] Leadscrew adjustments made: -0.084 -0.083 -0.083, points used 3, (mean, deviation) before (-0.084, 0.001) after (-0.000, 0.000)
+2022-03-14 16:30:10 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:31:23 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:31:28 [warn] Date and time set at power up + 00:00:02
+2022-03-14 16:31:29 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:32:13 [warn] Leadscrew adjustments made: -0.086 -0.083 -0.085, points used 3, (mean, deviation) before (-0.085, 0.001) after (-0.000, 0.000)
+2022-03-14 16:38:14 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 16:43:12 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:43:14 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-14 16:43:15 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:43:23 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 16:43:27 [warn] Date and time set at power up + 00:00:03
+2022-03-14 16:43:27 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-14 18:04:53 [warn] HTTP client 192.168.2.41 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:34:36 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:13:04 [warn] Date and time set at power up + 00:34:36
+2022-03-15 10:14:32 [warn] Error: G0/G1: insufficient axes homed
+2022-03-15 10:14:33 [warn] Error: G0/G1: insufficient axes homed
+2022-03-15 10:15:25 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:15:32 [warn] Date and time set at power up + 00:00:03
+2022-03-15 10:15:40 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-15 10:15:41 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:16:00 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0rc2 (2022-02-22 17:07:30)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:16:07 [warn] Date and time set at power up + 00:00:04
+2022-03-15 10:17:55 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:18:10 [warn] Date and time set at power up + 00:00:04
+2022-03-15 10:18:59 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:19:03 [warn] Date and time set at power up + 00:00:02
+2022-03-15 10:19:39 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-15 10:19:39 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-15 10:19:39 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:19:43 [warn] Date and time set at power up + 00:00:02
+2022-03-15 10:22:20 [warn] Leadscrew adjustments made: -0.073 -0.094 -0.080, points used 3, (mean, deviation) before (-0.083, 0.008) after (0.000, 0.000)
+2022-03-15 10:30:57 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:31:02 [warn] Date and time set at power up + 00:00:03
+2022-03-15 10:31:05 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-15 10:54:42 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 10:55:26 [warn] Leadscrew adjustments made: -0.094 -0.086 -0.091, points used 3, (mean, deviation) before (-0.090, 0.003) after (-0.000, 0.000)
+2022-03-15 13:46:49 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-15 13:46:50 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 20:42:41 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 20:42:53 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-15 20:43:13 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-15 20:44:00 [warn] Leadscrew adjustments made: -0.087 -0.090 -0.082, points used 3, (mean, deviation) before (-0.086, 0.003) after (0.000, 0.000)
+2022-03-15 20:44:14 [warn] Started printing file 0:/gcodes/KnobProbe-Pin_4_knob.gcode
+2022-03-15 22:33:40 [warn] Finished printing file 0:/gcodes/KnobProbe-Pin_4_knob.gcode, print time was 1h 49m
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 05:38:08 [warn] Date and time set at power up + 00:00:04
+2022-03-16 06:06:56 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:07 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:07 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 06:08:05 [warn] Date and time set at power up + 00:00:07
+2022-03-16 06:09:34 [warn] Leadscrew adjustments made: -0.138 -0.122 -0.096, points used 3, (mean, deviation) before (-0.119, 0.017) after (-0.000, 0.000)
+2022-03-16 06:23:44 [warn] Leadscrew adjustments made: -1.061 0.694 -1.067, points used 3, (mean, deviation) before (-0.451, 0.728) after (0.000, 0.000)
+2022-03-16 06:26:54 [warn] Leadscrew adjustments made: -0.079 -0.094 -0.083, points used 3, (mean, deviation) before (-0.086, 0.006) after (-0.000, 0.000)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:10 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 08:12:08 [warn] Date and time set at power up + 00:00:10
+2022-03-16 08:13:05 [warn] Leadscrew adjustments made: 0.360 -0.410 0.285, points used 3, (mean, deviation) before (0.067, 0.305) after (-0.000, 0.000)
+2022-03-16 08:13:46 [warn] HTTP client 192.168.2.39 disconnected
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:13:30 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-16 08:28:36 [warn] Date and time set at power up + 00:13:30
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:20 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 08:53:49 [warn] Date and time set at power up + 00:00:20
+2022-03-16 08:55:12 [warn] Leadscrew adjustments made: 0.941 -0.932 0.973, points used 3, (mean, deviation) before (0.298, 0.782) after (0.000, 0.000)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 08:57:00 [warn] Date and time set at power up + 00:00:04
+2022-03-16 08:57:52 [warn] Error: Must home axes [XY] before homing [Z]
+2022-03-16 08:58:47 [warn] Error: Probe already triggered at start of probing move
+2022-03-16 08:58:58 [warn] Error: Probe was not triggered during probing move
+2022-03-16 08:58:59 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 08:59:04 [warn] Date and time set at power up + 00:00:03
+2022-03-16 08:59:44 [warn] Error: Probe already triggered at start of probing move
+2022-03-16 08:59:47 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 07:57:12)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 08:59:52 [warn] Date and time set at power up + 00:00:03
+2022-03-16 09:01:22 [warn] Leadscrew adjustments made: -0.281 0.072 -0.308, points used 3, (mean, deviation) before (-0.166, 0.152) after (0.000, 0.000)
+2022-03-16 09:17:38 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 09:18:22 [warn] Leadscrew adjustments made: -0.092 -0.095 -0.087, points used 3, (mean, deviation) before (-0.092, 0.003) after (-0.000, 0.000)
+2022-03-16 09:27:56 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:49 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 09:29:50 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 09:29:50 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 09:29:35 [warn] Date and time set at power up + 00:00:03
+2022-03-16 09:29:35 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 09:29:35 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 09:29:36 [warn] HTTP client 192.168.2.215 disconnected
+2022-03-16 09:29:36 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 09:30:39 [warn] Leadscrew adjustments made: -0.106 -0.096 -0.083, points used 3, (mean, deviation) before (-0.095, 0.009) after (-0.000, 0.000)
+2022-03-16 09:31:50 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 09:31:57 [warn] Date and time set at power up + 00:00:02
+2022-03-16 09:31:58 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 09:31:59 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 10:03:40 [warn] Leadscrew adjustments made: -0.086 -0.098 -0.100, points used 3, (mean, deviation) before (-0.095, 0.006) after (0.000, 0.000)
+2022-03-16 10:08:00 [warn] Leadscrew adjustments made: -0.090 -0.095 -0.085, points used 3, (mean, deviation) before (-0.090, 0.004) after (-0.000, 0.000)
+2022-03-16 10:29:56 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:56 [warn] Error: Failed to switch off remote heater 2: Response timeout: CAN addr 21, req type 6013, RID=77
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:57 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 1: Board 20 does not have heater 1
+2022-03-16 10:29:58 [warn] Error: Failed to switch off remote heater 2: Board 21 does not have heater 2
+2022-03-16 10:29:58 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:03 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 10:30:11 [warn] Date and time set at power up + 00:00:03
+2022-03-16 10:30:11 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 10:30:11 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 10:30:12 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 10:30:12 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 10:30:17 [warn] HTTP client 192.168.2.215 login succeeded
+2022-03-16 10:42:31 [warn] HTTP client 192.168.2.215 disconnected
+2022-03-16 11:18:02 [warn] HTTP client 192.168.2.41 login succeeded
+2022-03-16 11:18:48 [warn] Leadscrew adjustments made: -0.099 -0.096 -0.086, points used 3, (mean, deviation) before (-0.094, 0.005) after (-0.000, 0.000)
+2022-03-16 11:39:48 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 11:53:16 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-16 11:53:16 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-16 12:25:08 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 12:30:51 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:06 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:06 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 12:31:00 [warn] Date and time set at power up + 00:00:06
+2022-03-16 12:37:35 [warn] Leadscrew adjustments made: -0.068 -0.111 -0.077, points used 3, (mean, deviation) before (-0.086, 0.016) after (-0.000, 0.000)
+2022-03-16 13:47:28 [warn] HTTP client 192.168.2.39 disconnected
+2022-03-16 16:48:18 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 16:49:09 [warn] Leadscrew adjustments made: -0.084 -0.086 -0.089, points used 3, (mean, deviation) before (-0.086, 0.002) after (-0.000, 0.000)
+2022-03-16 16:51:02 [warn] Leadscrew adjustments made: -0.004 -0.003 -0.003, points used 3, (mean, deviation) before (-0.003, 0.000) after (-0.000, 0.000)
+2022-03-16 16:53:07 [warn] 25 points probed, min error -0.201, max error 0.134, mean 0.053, deviation 0.081
+Height map saved to file 0:/sys/heightmap.csv
+2022-03-16 17:47:27 [warn] HTTP client 192.168.2.222 login succeeded
+2022-03-16 17:49:51 [warn] HTTP client 192.168.2.222 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 19:26:41 [warn] Date and time set at power up + 00:00:02
+2022-03-16 19:27:13 [warn] HTTP client 192.168.2.39 login succeeded
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:04 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 19:37:00 [warn] Date and time set at power up + 00:00:04
+2022-03-16 19:40:32 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:03 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 19:40:39 [warn] Date and time set at power up + 00:00:03
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 19:41:04 [warn] Date and time set at power up + 00:00:02
+2022-03-16 19:42:44 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.4.0 (2022-03-15 18:59:15)
+power up + 00:00:00 [warn] Warning: Macro file set_z_probe.g not found
+power up + 00:00:00 [warn] Error: Invalid Z probe index
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 614°C
+power up + 00:00:00 [warn] Warning: Heater 0 predicted maximum temperature at full power is 613°C
+power up + 00:00:00 [warn] Warning: Heater 1 predicted maximum temperature at full power is 440°C
+power up + 00:00:00 [warn] Warning: Heater 2 predicted maximum temperature at full power is 437°C
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.2.147
+power up + 00:00:02 [warn] HTTP client 192.168.2.39 login succeeded
+2022-03-16 19:42:49 [warn] Date and time set at power up + 00:00:02
+2022-03-16 19:44:44 [warn] Leadscrew adjustments made: 2.338 0.129 -2.385, points used 3, (mean, deviation) before (0.043, 1.897) after (-0.000, 0.000)

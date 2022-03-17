@@ -1,0 +1,1 @@
+M558 P8 C"io4.in" F60 H5  ; Setup the Knobprobe on IO4, Feedrate 60, Probe Hight 5mm.

@@ -34,20 +34,19 @@ M83                        ; ...but relative extruder moves
 ; Stepper mapping
 ;-------------------------------------------------------------------------------
 
-
 ;Configure Closed Loop 
-M569.1 P50.0 T2 C5 R200 I0 D0.13 H50          ; Drive 0 | X stepper 1000PPR
-M569.1 P51.0 T2 C5 R200 I0 D0.13 H50          ; Drive 1 | Y Stepper 1000PPR
+M569.1 P50.0 S100 I0 D0 T2 C5 H5          ; Drive 0 | X stepper 1000PPR
+M569.1 P51.0 S100 I0 D0 T2 C5 H5          ; Drive 1 | Y Stepper 1000PPR
 
 ;Configure Stepper
 
 ;## XY ##
 M569 P50.0 D2 S1                 ; Drive 0 | X stepper Start in SpreadCycle
 M569 P51.0 D2 S1                 ; Drive 1 | Y Stepper Start in SpreadCycle
-M917 X80 Y80                       ;Hold Current
+M917 X0 Y0                       ;Hold Current
 M584 X50.0 Y51.0                ; X and Y for CoreXY
-M906 X1400 ;{1.8*sqrt(2)*2000}  ; LDO XY 2000mA RMS the TMC5160 driver on duet3
-M906 Y1400 ;{1.8*sqrt(2)*2000}  ; generates a sinusoidal coil current so we can 
+M906 X1500 ;{0.9*sqrt(2)*2000}  ; LDO XY 2000mA RMS the TMC5160 driver on duet3
+M906 Y1500 ;{0.9*sqrt(2)*2000}  ; generates a sinusoidal coil current so we can 
                           ; multply by sqrt(2) to get peak used for M906
                           ; Do not exceed 90% without heatsinking the XY 
                           ; steppers.
@@ -64,7 +63,7 @@ M569 P0.2 S0                ; Drive 2 | Front Left Z
 M569 P0.3 S0                ; Drive 3 | Back
 M569 P0.4 S0                ; Drive 4 | Front Right
 ;M906 Z{0.7*sqrt(2)*1680}  ; 70% of 1680mA RMS
-M906 Z1000  ; 70% of 1680mA RMS
+M906 Z1400  ; 70% of 1680mA RMS
 
 
 ;## TOOLS T0 = 20
@@ -118,18 +117,18 @@ M92 U{13.76/1.8}       ; gear ration / step angle for tool lock geared motor.
 ;M92 E51.875            ; Extruder - BMG 0.9 deg/step
 
 ; Enable microstepping all step per unit will be multiplied by the new step def
-M350 X16 Y16 I1        ; 16x microstepping for CoreXY axes. Use interpolation.
+M350 X32 Y32 I1        ; 16x microstepping for CoreXY axes. Use interpolation.
 M350 U4 I1             ; 4x for toolchanger lock. Use interpolation.
 M350 Z16 I1            ; 16x microstepping for Z axes. Use interpolation.
 ;M350 E16:16 I1         ; 16x microstepping for Extruder axes. Use interpolation.
 
-; Speed and acceleration
+; Speed and acceleration (X/Y/Z)
 ;-------------------------------------------------------------------------------
-M201 X800 Y800                        ; Accelerations (mm/s^2) 11000 default
+M201 X3000 Y3000                        ; Accelerations (mm/s^2) 11000 default
 M201 Z100                               ; LDO ZZZ Acceleration
 M201 U800                               ; LDO U Accelerations (mm/s^2)
 
-M203 X18000 Y18000 Z800 U9000     ; Maximum axis speeds (mm/min)
+M203 X12000 Y12000 Z800 U9000     ; Maximum axis speeds (mm/min)
 M566 X500 Y500 Z500 U50           ; Maximum jerk speeds (mm/min)
 
 
@@ -146,7 +145,8 @@ M574 X1 S1 P"^io1.in"  ; homing position X1 = low-end, type S1 = switch
 M574 Y1 S1 P"^io3.in"  ; homing position Y1 = low-end, type S1 = switch
 
 M574 Z0                ; we will use the switch as a Z probe not endstop 
-M558 P8 C"io2.in" H3 F360 T6000 ; H = dive height F probe speed T travel speed
+;M558 P8 C"io2.in" H3 F360 T6000 ; H = dive height F probe speed T travel speed
+M98 P"set_z_probe.g"
 G31 K0 X0 Y0 Z-2    ; Set the limit switch position as the  "Control Point."
                     ; Note: the switch free (unclicked) position is 7.2mm,
                     ; but the operating position (clicked) is 6.4 +/- 0.2mm. 
@@ -189,6 +189,8 @@ M140 H0                             ; Assign H0 to the bed
 M98 P"Tools/BabyBullet.g" B20 T0 S"Tool 0" X0.172 Y33.25 Z-2.05
 M98 P"Tools/BabyBullet.g" B21 T1 S"Tool 1" X-0.3 Y32.93 Z-2.23
 
+;Accel
+M955 P20.0 I50
 
 M501                        ; Load saved parameters from non-volatile memory
 
