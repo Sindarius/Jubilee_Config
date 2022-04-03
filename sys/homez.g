@@ -30,5 +30,7 @@ G30                     ; Probe
 M558 F50                ; Set a slower probing speed
 G30                     ; Prob
 G32                     ; Run 3-point bed calibration defined in bed.g
-G29 S1                  ; Enable Mesh Bed Compensation
+
+G90 G1 X150 Y130 F10000 ; Move to the center of the bed
+G30                     ; Final probe after bed has been adjusted
 

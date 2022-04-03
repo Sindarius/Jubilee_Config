@@ -35,8 +35,8 @@ M83                        ; ...but relative extruder moves
 ;-------------------------------------------------------------------------------
 
 ;Configure Closed Loop 
-M569.1 P50.0 S100 I0 D0 T2 C5 H5          ; Drive 0 | X stepper 1000PPR
-M569.1 P51.0 S100 I0 D0 T2 C5 H5          ; Drive 1 | Y Stepper 1000PPR
+M569.1 P50.0 S150 I175 D0.21 T2 C5 H5          ; Drive 0 | X stepper 1000PPR
+M569.1 P51.0 S150 I50 D0.21 T2 C5 H5          ; Drive 1 | Y Stepper 1000PPR
 
 ;Configure Stepper
 
@@ -67,18 +67,20 @@ M906 Z1400  ; 70% of 1680mA RMS
 
 
 ;## TOOLS T0 = 20
-M584 E20.0:21.0    ;Extruder
+M584 E20.0:21.0:22.0:23.0    ;Extruder
 M569 P20.0 S1 ; Direction
 M569 P21.0 S0 ;Reversed the wiring on this one
+M569 P22.0 S1 ; Direction
+M568 P23.0 S1 ; Direction
 
 ;#tool movement
-M350 E16:16 I1           ;microstepping
-M92 E690:690			  ;steps
-M203 E7200:7200            ;max feed rate
-M566 E400:400             ;jerk
-M201 E10000:10000           ;max accel
-M906 E1000:1000 I10        ;Current (I Idle%)
-M572 D0:1 S0.45            ;Pressure Advance
+M350 E16:16:16:16 I1           ;microstepping
+M92 E690:690:690:690			  ;steps
+M203 E7200:7200:7200:7200            ;max feed rate
+M566 E400:400:400:400             ;jerk
+M201 E10000:10000:10000:10000           ;max accel
+M906 E1000:1000:1000:1000 I10        ;Current (I Idle%)
+M572 D0:1:2:3:4 S0.04            ;Pressure Advance
 M207 S1.0 F7200 Z0.2  ;Firmware retraction
 
 
@@ -99,7 +101,7 @@ M671 x297.5:150:2.5 y313.5:-16.5:313.5 S10 ; Front Left: (297.5, 313.5)
 
 
 ; Probing
-M557 X50:250 Y50:250 P5
+M557 X25:275 Y25:275 P8
 
 ; Axis and motor configuration 
 ;-------------------------------------------------------------------------------
@@ -117,7 +119,7 @@ M92 U{13.76/1.8}       ; gear ration / step angle for tool lock geared motor.
 ;M92 E51.875            ; Extruder - BMG 0.9 deg/step
 
 ; Enable microstepping all step per unit will be multiplied by the new step def
-M350 X32 Y32 I1        ; 16x microstepping for CoreXY axes. Use interpolation.
+M350 X32 Y32 I1        ; 32x microstepping for CoreXY axes. Use interpolation. 32X to take advantage of closed loop motors
 M350 U4 I1             ; 4x for toolchanger lock. Use interpolation.
 M350 Z16 I1            ; 16x microstepping for Z axes. Use interpolation.
 ;M350 E16:16 I1         ; 16x microstepping for Extruder axes. Use interpolation.
@@ -147,7 +149,9 @@ M574 Y1 S1 P"^io3.in"  ; homing position Y1 = low-end, type S1 = switch
 M574 Z0                ; we will use the switch as a Z probe not endstop 
 ;M558 P8 C"io2.in" H3 F360 T6000 ; H = dive height F probe speed T travel speed
 M98 P"set_z_probe.g"
-G31 K0 X0 Y0 Z-2    ; Set the limit switch position as the  "Control Point."
+
+;Moved to set_z_probe.g
+;G31 K0 X0 Y0 Z-2    ; Set the limit switch position as the  "Control Point."
                     ; Note: the switch free (unclicked) position is 7.2mm,
                     ; but the operating position (clicked) is 6.4 +/- 0.2mm. 
                     ; A 1mm offset (i.e: 7.2-6.2 = 1mm) would be the 
@@ -185,12 +189,16 @@ M307 H0 A589.8 C589.8 D2.2 V24.1 B0 ; Keenovo 750w 230v built in thermistor
                                     ; mandala rose bed
 M140 H0                             ; Assign H0 to the bed
 
+;There appears to be a 0.1 offset after probing with knobprobe that needs to be accounted for.
+M98 P"Tools/BabyBullet.g" B20 T0 S"Tool 0" X-0.283 Y33.298 Z-4.364
+M98 P"Tools/BabyBullet.g" B21 T1 S"Tool 1" X-0.631 Y33.435 Z-4.346
+M98 P"Tools/BabyBullet.g" B22 T2 S"Tool 2" X-0.631 Y33.435 Z-4.346
+M98 P"Tools/BabyBullet.g" B23 T3 S"Tool 2" X-0.631 Y33.435 Z-4.346
 
-M98 P"Tools/BabyBullet.g" B20 T0 S"Tool 0" X0.172 Y33.25 Z-2.05
-M98 P"Tools/BabyBullet.g" B21 T1 S"Tool 1" X-0.3 Y32.93 Z-2.23
 
 ;Accel
-M955 P20.0 I50
+M955 P20.0 I54
+
 
 M501                        ; Load saved parameters from non-volatile memory
 

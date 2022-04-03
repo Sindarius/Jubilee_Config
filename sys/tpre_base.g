@@ -1,5 +1,5 @@
 ; tpre0.g
-; Runs after freeing the previous tool if the next tool is tool-0.
+; Runs after freeing the previous tool
 ; Note: tool offsets are not applied at this point!
 
 G90                  ; Ensure the machine is in absolute mode before issuing movements.
