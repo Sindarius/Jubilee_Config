@@ -1,18 +1,50 @@
 M561                 ;disable mesh compensation
-G0 X150 Y100 F10000  ;Go to point if we aren't already there.
+T-1
+G0 X{global.xprobe} Y{global.yprobe} F10000  ;Go to point if we aren't already there.
 
-M120 				;Push
-G91   				;Relative Move
-G0 Z3 F1000			; Move 3
-M121				; Pop
 
+if !{exists(global.offsetProbe)}
+	global offsetProbe = 0
+	
+if !{exists(global.probePoint)}
+	global probePoint = 0	
+
+; endstop trigger machine position
+var endstopPoint = 0
+; endstop doorknob trigger machine position
+var probePoint = 0
+
+G91 G1 Z5 G90    ;Move the bed 5mm
+
+
+;Do initial probe and zeroing - protect us from ourselves 
 M98 P"set_z_probe.g" ;Use the z limit switch
 G31 Z0
-G30                  ;Set zero off the probe
-M558 A3 F100         ;Slow Probe
-G30                  ;Set zero off the probe
+G91 G1 Z5 G90    ;Move the bed 5mm
+M558 F200
+G30 S-1                 
+set var.endstopPoint = move.axes[2].machinePosition
+
+
+
 
 M98 P"set_knobprobe.g"
-G31 Z0           ;we should be 3mm above the touch off
+M558 F200
+G30 S-1                 ;Trigger off the knob probe
+set global.probePoint = move.axes[2].machinePosition
 
+M98 P"set_z_probe.g" ;Use the z limit switch
+G91 G1 Z5 G90    ;Move the bed 5mm
+M558 F200
+G30 S-1                 
+set var.endstopPoint = move.axes[2].machinePosition
 
+G91 G1 Z5 G90    ;Move the bed 5mm
+
+set global.offsetProbe =  var.endstopPoint - global.probePoint
+
+echo var.endstopPoint
+echo global.probePoint
+echo global.offsetProbe
+
+G91 G1 Z5 G90    ;Move the bed 5mm

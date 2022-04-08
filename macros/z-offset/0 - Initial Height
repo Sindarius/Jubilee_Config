@@ -1,2 +1,7 @@
+if !exists(global.yprobe)
+	global yprobe = 150
+if !exists(global.xprobe)
+	global xprobe = 150
+	
 G0 Z104 F500
-G0 X150 Y100 F10000
+G0 X{global.xprobe} Y{global.yprobe} F10000

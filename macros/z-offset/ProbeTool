@@ -1,19 +1,34 @@
 
+var offset = 0
+
 ;G0 Z5       	  ;Move 5mm
 
+M98 P"set_knobprobe.g"
+
 T{param.T}   	  ;Load the selected tool
-G0 Y100 F10000 ;Do safe moves
-G0 X150       ;Return to probe point
+G0 Y{global.yprobe} F10000 ;Do safe moves
+G0 X{global.xprobe}       ;Return to probe point
 G10 P{param.T} Z0        ; Reset tool Z offset
 
 M558 A10 F30
-G30 S-2			  ;Probe
+;G30 S-2			  ;Probe
+;G10 P{param.T};Print Result
+
+G30 S-1 ;PRobe and stop
+set var.offset = move.axes[2].machinePosition - global.probePoint
+set var.offset = global.offsetProbe - var.offset;
+
+G10 P{param.T} Z{var.offset}
 G10 P{param.T};Print Result
 
-G0 Z5             ;Go back up 5
+G91 G1 Z5 G90    ;Move the bed 5mm
 T-1 			  ;Unload after probing
 
-G0 Y100 F10000
-G0 X150
-G30 S-1
-G0 Z5
+
+;TESTING
+;M98 P"set_z_probe.g" ;Use the z limit switch
+;G31 Z0           ;we should be 3mm above the touch off
+;G0 Y{global.yprobe} F10000
+;G0 X{global.xprobe}
+;G30 S-1
+;G0 Z5
