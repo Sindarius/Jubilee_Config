@@ -1,0 +1,18 @@
+M561                 ;disable mesh compensation
+G0 X150 Y100 F10000  ;Go to point if we aren't already there.
+
+M120 				;Push
+G91   				;Relative Move
+G0 Z3 F1000			; Move 3
+M121				; Pop
+
+M98 P"set_z_probe.g" ;Use the z limit switch
+G31 Z0
+G30                  ;Set zero off the probe
+M558 A3 F100         ;Slow Probe
+G30                  ;Set zero off the probe
+
+M98 P"set_knobprobe.g"
+G31 Z0           ;we should be 3mm above the touch off
+
+
