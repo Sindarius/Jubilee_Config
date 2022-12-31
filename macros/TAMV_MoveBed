@@ -1,0 +1,9 @@
+G0 Z160.00 F500
+G0 X150 Y150 F6000
+
+;Disabling this for now since we have magnets
+;Reset Z to avoid bed motion that could throw camera off.
+G10 P0 Z0
+G10 P1 Z0
+G10 P2 Z0
+G10 P3 Z0

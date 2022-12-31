@@ -7,7 +7,8 @@ M116 P{param.T}                    ; Wait for set temperatures to be reached
 M302 P0                    ; Prevent Cold Extrudes, just in case temp setpoints are at 0
 
 G90                        ; Ensure the machine is in absolute mode before issuing movements.
-
+if state.status == "processing" ;Only do this if we are printing
+	G1 E18 F200 				;Reload filament 18mm
 G53 G1 Y{param.Y} F6000          ; Move to the pickup position with tool-0.   F6000 default
 M98 P"/macros/tool_lock.g" ; Lock the tool
 

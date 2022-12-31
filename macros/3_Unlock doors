@@ -1,0 +1,6 @@
+if sensors.gpIn[0].value == 1
+	M42 P1 S1
+	echo "Doors have been unlocked."
+	
+elif sensors.gpIn[0].value == 0
+	echo "Doors are already unlocked."

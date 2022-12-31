@@ -15,6 +15,8 @@ if state.currentTool != -1
   M291 R"Cannot Home Z" P"Tool must be deselected before homing. U has been unlocked, please manually dock tool and press OK to continue or Cancel to abort" S3
   M98 P"homeu.g"
 
+T-1
+
 M290 R0 S0              ; Reset baby stepping
 M561                    ; Disable any Mesh Bed Compensation
 
@@ -25,12 +27,15 @@ G90                     ; back to absolute positioning
 G90 G1 X150 Y130 F10000 ; Move to the center of the bed -20mm to not probe on
                         ; top of the mandal rose bed magnet skrew head
 
-M558 F500               ; Set the probing speed
+M558 F200               ; Set the probing speed
 G30                     ; Probe
 M558 F50                ; Set a slower probing speed
 G30                     ; Prob
 G32                     ; Run 3-point bed calibration defined in bed.g
 
-G90 G1 X150 Y130 F10000 ; Move to the center of the bed
+G90 G1 X150 Y150 F10000 ; Move to the center of the bed
+;G90 G1 X150 Y150 F10000 ; Move to the center of the bed
+M98 P"set_z_probe_slow.g"
 G30                     ; Final probe after bed has been adjusted
+M98 P"set_z_probe.g"
 

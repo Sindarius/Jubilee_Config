@@ -1,0 +1,8 @@
+M106 P7 S.93
+G4 P1000
+M106 P7 S.4						; Cooling 93%
+G4 P1000
+M106 P7 S.45					; Servo Wipe
+G4 P1000
+M106 P7 S0							; Cooling Off
+G4 P1000

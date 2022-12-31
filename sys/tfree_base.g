@@ -4,7 +4,12 @@
 
 G91                          ; Relative Mode.
 G1 Z2                        ; Pop Z up slightly so we don't crash while traveling over the usable bed region.
+if state.status == "processing" ;Only do this if we are printing
+	G1 E-18 F400 				;Retract filament 18mm
+	M106 S0						;Turn off part fan
 G90                          ; Absolute Mode.
+
+
 
 G53 G0 X{param.X} F12000     ; Rapid to the back of the post. Stay away from the tool rack so we don't collide with tools.
 G53 G0 Y{param.Y} F12000     ; This position must be chosen such that the most protruding y face of the current tool

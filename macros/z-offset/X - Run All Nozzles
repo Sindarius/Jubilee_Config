@@ -1,0 +1,5 @@
+M98 P"0:/macros/z-offset/ProbeTool" T0
+M98 P"0:/macros/z-offset/ProbeTool" T1
+M98 P"0:/macros/z-offset/ProbeTool" T2
+M98 P"0:/macros/z-offset/ProbeTool" T3
+M98 P"write_z_offsets.g"

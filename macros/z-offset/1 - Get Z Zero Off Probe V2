@@ -1,0 +1,44 @@
+M561                 ;disable mesh compensation
+T-1
+G0 X{global.xprobe} Y{global.yprobe} F10000  ;Go to point if we aren't already there.
+
+
+if !{exists(global.offsetProbe)}
+	global offsetProbe = 0
+	
+if !{exists(global.probePoint)}
+	global probePoint = 0	
+
+; endstop trigger machine position
+var endstopPoint = 0
+; endstop doorknob trigger machine position
+var probePoint = 0
+
+G91 G1 Z5 G90    ;Move the bed 5mm
+
+
+;Do initial probe and zeroing - protect us from ourselves 
+M98 P"set_z_probe.g" ;Use the z limit switch
+G31 Z0
+G30
+
+M98 P"set_knobprobe.g"
+;M558 F100
+;G30 S-1                 ;Trigger off the knob probe
+;set global.probePoint = move.axes[2].machinePosition
+;echo "global.probePoint" ^ global.probePoint
+
+;G91 G1 Z5 G90    ;Move the bed 5mm
+;
+;M98 P"set_z_probe_slow.g" ;Use the z limit switch
+;M558 F100
+;G30 S-1                 
+;set var.endstopPoint = move.axes[2].machinePosition
+;echo "var.endstopPoint" ^ var.endstopPoint
+
+G91 G1 Z5 G90    ;Move the bed 5mm
+
+;set global.offsetProbe =  var.endstopPoint - global.probePoint
+;echo "global.offsetProbe" ^ global.offsetProbe
+
+;G91 G1 Z5 G90    ;Move the bed 5mm

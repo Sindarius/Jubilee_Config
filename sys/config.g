@@ -14,10 +14,12 @@
 ;-------------------------------------------------------------------------------
 ; Networking
 M550 P"Jubilee"           ; Name used in ui and for mDNS  http://Jubilee.local
+;M552 P192.168.10.14 S1          ; Use Ethernet with a static IP, 0.0.0.0 for dhcp
 M552 P0.0.0.0 S1          ; Use Ethernet with a static IP, 0.0.0.0 for dhcp
 M553 P255.255.255.0       ; Netmask
-M554 192.168.2.1          ; Gateway
+;M554 192.168.2.1          ; Gateway
 
+global versionnumber = "1.4T8"
 
 ; General setup
 ;-------------------------------------------------------------------------------
@@ -29,32 +31,35 @@ M555 P2                    ; Set Marlin-style output
 G21                        ; Set dimensions to millimetres
 G90                        ; Send absolute coordinates...
 M83                        ; ...but relative extruder moves
-
+G4 S5
 
 ; Stepper mapping
 ;-------------------------------------------------------------------------------
 
 ;Configure Closed Loop 
-M569.1 P50.0 S150 I175 D0.21 T2 C5 H5          ; Drive 0 | X stepper 1000PPR
-M569.1 P51.0 S150 I50 D0.21 T2 C5 H5          ; Drive 1 | Y Stepper 1000PPR
+M569.1 P50.0 R80 I3000 D0.12 T2 C1000 H80 S200        ; Drive 0 | X stepper 1000PPR
+M569.1 P51.0 R80 I3000 D0.12 T2 C1000 H80 S200         ; Drive 1 | Y Stepper 1000PPR
 
 ;Configure Stepper
 
 ;## XY ##
 M569 P50.0 D2 S1                 ; Drive 0 | X stepper Start in SpreadCycle
 M569 P51.0 D2 S1                 ; Drive 1 | Y Stepper Start in SpreadCycle
-M917 X0 Y0                       ;Hold Current
+
+;M584 X50.0:51.0                ; (Single X Test for Closed Loop Plugin)
 M584 X50.0 Y51.0                ; X and Y for CoreXY
+
 M906 X1500 ;{0.9*sqrt(2)*2000}  ; LDO XY 2000mA RMS the TMC5160 driver on duet3
 M906 Y1500 ;{0.9*sqrt(2)*2000}  ; generates a sinusoidal coil current so we can 
                           ; multply by sqrt(2) to get peak used for M906
                           ; Do not exceed 90% without heatsinking the XY 
                           ; steppers.
+M917 X100 Y100                       ;Hold Current						  
 
 ;## U - Tool Lock##
 M584 U0.0                       ; U for toolchanger lock                                    
 M569 P0.0 S0                  ; Drive 0 | U Tool Changer Lock  670mA
-M906 U{0.7*sqrt(2)*670} I60 ; 70% of 670mA RMS idle 60%
+M906 U{0.7*sqrt(2)*670} I70 ; 70% of 670mA RMS idle 60%
                             ; Note that the idle will be shared for all drivers
 
 ;## Z - Check Motor Order - Facing from board side of the machine## 
@@ -63,7 +68,7 @@ M569 P0.2 S0                ; Drive 2 | Front Left Z
 M569 P0.3 S0                ; Drive 3 | Back
 M569 P0.4 S0                ; Drive 4 | Front Right
 ;M906 Z{0.7*sqrt(2)*1680}  ; 70% of 1680mA RMS
-M906 Z1400  ; 70% of 1680mA RMS
+M906 Z1200  ; 70% of 1680mA RMS
 
 
 ;## TOOLS T0 = 20
@@ -71,19 +76,16 @@ M584 E20.0:21.0:22.0:23.0    ;Extruder
 M569 P20.0 S1 ; Direction
 M569 P21.0 S0 ;Reversed the wiring on this one
 M569 P22.0 S1 ; Direction
-M568 P23.0 S1 ; Direction
+M569 P23.0 S1 ; Direction
 
-;#tool movement
+;#tool movement (4 tools)
 M350 E16:16:16:16 I1           ;microstepping
-M92 E690:690:690:690			  ;steps
+M92 E676.2:676.2:676.2:676.2			  ;steps
 M203 E7200:7200:7200:7200            ;max feed rate
-M566 E400:400:400:400             ;jerk
+M566 E500:500:500:500             ;jerk
 M201 E10000:10000:10000:10000           ;max accel
 M906 E1000:1000:1000:1000 I10        ;Current (I Idle%)
-M572 D0:1:2:3:4 S0.04            ;Pressure Advance
-M207 S1.0 F7200 Z0.2  ;Firmware retraction
-
-
+M572 D0:1:2:3 S0.04            ;Pressure Advance
 
 
 
@@ -101,7 +103,9 @@ M671 x297.5:150:2.5 y313.5:-16.5:313.5 S10 ; Front Left: (297.5, 313.5)
 
 
 ; Probing
-M557 X25:275 Y25:275 P8
+;M557 X25:275 Y25:275 P7
+M557 X25:275 Y25:275 P3 
+
 
 ; Axis and motor configuration 
 ;-------------------------------------------------------------------------------
@@ -126,12 +130,13 @@ M350 Z16 I1            ; 16x microstepping for Z axes. Use interpolation.
 
 ; Speed and acceleration (X/Y/Z)
 ;-------------------------------------------------------------------------------
-M201 X3000 Y3000                        ; Accelerations (mm/s^2) 11000 default
+M201 X8000 Y8000                        ; Accelerations (mm/s^2) 11000 default
 M201 Z100                               ; LDO ZZZ Acceleration
 M201 U800                               ; LDO U Accelerations (mm/s^2)
 
-M203 X12000 Y12000 Z800 U9000     ; Maximum axis speeds (mm/min)
-M566 X500 Y500 Z500 U50           ; Maximum jerk speeds (mm/min)
+M203 X20000 Y20000 Z800 U9000     ; Maximum axis speeds (mm/min)
+;M566 X700 Y700 Z500 U50           ; Maximum jerk speeds (mm/min)
+M566 X400 Y400 Z500 U50           ; Maximum jerk speeds (mm/min)
 
 
 
@@ -176,6 +181,9 @@ if exists(global.heaterIndex)
 else 
 	global heaterIndex = 0 ;Bed is at zero
 
+global stopProcess = false
+global daemonLoop = true;
+
 ; Heaters and temperature sensors
 ;-------------------------------------------------------------------------------
 
@@ -185,20 +193,69 @@ M950 H0 C"out0" T0                  ; H = Heater 0
                                     ; C is output for heater itself
                                     ; T = Temperature sensor
 M143 H0 S130                        ; Set maximum temperature for bed to 130C    
-M307 H0 A589.8 C589.8 D2.2 V24.1 B0 ; Keenovo 750w 230v built in thermistor
+M307 H0 A589.8 C589.8 D20.2 V24.1 B0 ; Keenovo 750w 230v built in thermistor
                                     ; mandala rose bed
 M140 H0                             ; Assign H0 to the bed
 
-;There appears to be a 0.1 offset after probing with knobprobe that needs to be accounted for.
-M98 P"Tools/BabyBullet.g" B20 T0 S"Tool 0" X-0.283 Y33.298 Z-4.364
-M98 P"Tools/BabyBullet.g" B21 T1 S"Tool 1" X-0.631 Y33.435 Z-4.346
-M98 P"Tools/BabyBullet.g" B22 T2 S"Tool 2" X-0.631 Y33.435 Z-4.346
-M98 P"Tools/BabyBullet.g" B23 T3 S"Tool 3" X-0.631 Y33.435 Z-4.346
+;There appears to be a 0.10 offset after probing with knobprobe that needs to be accounted for. Trigger offset?
+M98 P"Tools/BabyBullet.g" B20 T0 S"Tool 0" ;X0.03 Y33.03  Z-4.891
+M98 P"Tools/BabyBullet.g" B21 T1 S"Tool 1" ;X0.16 Y33.01 Z-4.579
+M98 P"Tools/BabyBullet.g" B22 T2 S"Tool 2" ;X-0.1 Y32.95 Z-4.608
+M98 P"Tools/BabyBullet.g" B23 T3 S"Tool 3" ;X-0.314 Y32.853 Z-4.686
 
+;M308 S20 P"20.temp1" Y"thermistor" T100000 B4725 C7.06e-8 A"Test" ;Thermistor
 
 ;Accel
 M955 P20.0 I54
 
+;Pebble Wiper
+;---------------------------------------------------------------------------------
+#M950 F10 C"^0.out6" Q600					;Wipe Servo
+#M106 P10 C"Wipe" 					;Wipe Servo
+
+
+
 
 M501                        ; Load saved parameters from non-volatile memory
 
+M207 S0.2 F7200 Z0.1  ;Firmware retraction
+
+;M593 P"zvdd" F48.0 ;Input Shaping
+
+M98 P"xy_offsets.g"
+M98 P"z_offsets.g"
+
+;Builder3D Testing
+;M950 P1 C"out6" Q0 ; door lock output
+;M950 J0 C"^io6.in" ; door status input ; changed from io4.in to io5.in
+
+M586 C"*"
+
+;CAN Triggers
+M950 J2 C"20.button0"
+M581 P2 T2 R2
+M950 J3 C"20.button1"
+M581 P3 T3 R2
+
+M950 J4 C"21.button0"
+M581 P4 T4 R2
+M950 J5 C"21.button1"
+M581 P5 T5 R2
+
+M950 J6 C"22.button0"
+M581 P6 T6 R2
+M950 J7 C"22.button1"
+M581 P7 T7 R2
+
+M950 J8 C"23.button0"
+M581 P8 T8 R2
+M950 J9 C"23.button1"
+M581 P9 T9 R2
+
+
+;Testing Delta
+; General preferences
+;M665 R105.6 L215.0 B85 H235     ; set delta radius, diagonal rod length, printable radius and homed height
+;M666 X0 Y0 Z0                   ; put your endstop adjustments here
+;M665 L160.000:160.000:160.000 R81.000 H173.674 B80; Set delta radius, diagonal rod length, printable radius and homed height
+;M666 X0.909 Y-0.405 Z-0.504                    ; Put your endstop adjustments here, or let auto calibration find them

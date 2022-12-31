@@ -11,6 +11,7 @@ var z = 0 ; ZOffset
 var s = "Tool" ;Tool Name
 var t = -1;  ;Tool Index
 var b = -1 ;Tool Board Index
+var q = 0;
 
 echo "Start"
 
@@ -30,6 +31,8 @@ if exists(param.Z)
 if exists(param.S)
 	set var.s = param.S
 
+if exists(param.Q)
+	set var.q = param.Q
 
 if !exists(param.B)
 	abort "Board ID not specified"
@@ -39,7 +42,10 @@ if !exists(param.B)
 var heater = param.B ^ ".out0"
 var heaterIndex = global.heaterIndex + 1
 
+
 var temp = param.B ^ ".temp0"
+if var.q == 1
+ set var.temp = param.B ^ ".temp1"
 var heaterName = "Hot End " ^ param.T
 
 M308 S{var.heaterIndex} P{var.temp} Y"thermistor" T100000 B4725 C7.06e-8 A{var.heaterName} ;Thermistor
@@ -53,9 +59,9 @@ var fan0Index = global.fanCount + 1
 var fan1 = param.B ^ ".out2" ;Part Fan
 var fan1Index = global.fanCount + 2
 
-M950 F{var.fan0Index} C{var.fan0}
+M950 F{var.fan0Index} C{var.fan0} Q400
 M106 P{var.fan0Index} S0 C{"Part Fan " ^ param.T}
-M950 F{var.fan1Index} C{var.fan1}
+M950 F{var.fan1Index} C{var.fan1} Q400
 M106 P{var.fan1Index} S1 H{var.heaterIndex} T60 C{"Hotend Fan " ^ param.T}
 
 
@@ -63,7 +69,7 @@ M106 P{var.fan1Index} S1 H{var.heaterIndex} T60 C{"Hotend Fan " ^ param.T}
 var extruder = param.B ^ ".0"
 
 M563 P{param.T} S{var.s} H{var.heaterIndex} F{var.fan0Index} D{param.T} 
-G10 L1 P{param.T} X{var.x} Y{var.y} Z{var.z}
+;G10 L1 P{param.T} X{var.x} Y{var.y} Z{var.z}
 
 ;#Update globals
 set global.heaterIndex = global.heaterIndex + 1

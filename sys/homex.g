@@ -9,6 +9,8 @@
 
 G90                     ; Set absolute mode
 
+M98 P"homey.g" ; home Y before home X
+
 if !move.axes[3].homed
   M291 R"Cannot Home X" P"U axis must be homed before X to prevent damage to tool. Press OK to home U or Cancel to abort" S3
   M98 P"homeu.g"
@@ -24,7 +26,7 @@ if state.currentTool != -1
   M84 U
   M291 R"Cannot Home X" P"Tool must be deselected before homing. U has been unlocked, please manually dock tool and press OK to continue or Cancel to abort" S3
   M98 P"homeu.g"
-  
+G0 Y10
 G91                     ; Relative mode
 G1 H2 Z5 F5000          ; Lower the bed
 G1 X-330 F3000 H1       ; Big negative move to search for endstop
@@ -32,3 +34,6 @@ G1 X4 F600              ; Back off the endstop
 G1 X-10 F600 H3         ; Find endstop again slowly
 G1 H2 Z-5 F5000         ; Raise the bed
 G90                     ; Set absolute mode
+
+;tune
+;M98 P"tune.g" ;moved to home x
