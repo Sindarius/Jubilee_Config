@@ -1,0 +1,73 @@
+echo "Starting probe"
+M98 P"0:/sys/set_touchprobe.g"
+G90 ; Absolute Position
+G0 Z5
+G0 Y150 ;Save move Y
+G0 X150 ; Save move X
+
+var dive = 1.3
+
+
+G91 ; Relative movement
+G30 S-1 ;Probe Z
+var zHeight = move.axes[2].userPosition
+G0 Z1 ; Fixed 1mm Lift
+
+;Probe to right
+G0 X-10; Move left 15mm -- Give ourselves a little extra space
+G0 Z{-var.dive}; Move down 1.2mm to get tip of nozzle in contact
+G38.2 X250 ; Probe to right until stop
+var mRight = move.axes[0].machinePosition; 
+var right = move.axes[0].userPosition;
+;echo "Right " ^ var.right
+G0 X-1
+G0 Z{var.dive} ; Lift
+
+;Probe to left 
+
+G0 X12; move right
+G0 Z{-var.dive} ; Move down
+G38.2 X100 ;Probe to the left until contact 
+var mLeft = move.axes[0].machinePosition
+var left = move.axes[0].userPosition
+;echo "Left " ^ var.left
+G0 X1
+G0 Z{var.dive} ; Lift
+
+G90
+G0 X{((var.right+var.left) / 2)} ; Go to center x position
+;echo move.axes[0].userPosition 
+
+;Get front position
+
+G91 ;Back to relative
+G0 Y-10    ; move toward front
+G0 Z{-var.dive}   ; Lower nozzle
+G38.2 Y250 ; probe 
+var mFront = move.axes[1].machinePosition ; Record position 
+var front = move.axes[1].userPosition ; Record position 
+;echo "Front" ^ var.front
+G0 Y-1
+G0 Z{var.dive} ; Lift
+
+
+;Get back position
+G0 Y12   ;Move back
+G0 Z{-var.dive} ; Lower nozzle
+G38.2 Y100 ; Probe
+var mBack = move.axes[1].machinePosition ; Record position 
+var back = move.axes[1].userPosition ;Record Position
+;echo "Back" ^ var.back
+G0 Y1
+G0 Z{var.dive} ;Lift at end
+
+
+G90 ; Back to absolute
+G0 Y{((var.front + var.back) / 2)}
+M400 ; wait for all the moves to complete.
+echo "Position " ^ move.axes[0].userPosition ^ "," ^ move.axes[1].userPosition 
+echo "machinePos" ^ move.axes[0].machinePosition ^ "," ^ move.axes[1].machinePosition
+echo "Offset " ^ (global.probex - move.axes[0].machinePosition) ^ ", " ^ (global.probey - move.axes[1].machinePosition)
+
+
+

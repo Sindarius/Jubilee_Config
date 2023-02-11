@@ -1,0 +1,13 @@
+M98 P"0:/sys/set_z_probe_slow.g"
+G30
+
+;Capture our machine coordinates that we want to offset against
+if !exists(global.probex)
+    global probex = move.axes[0].machinePosition
+else
+    set global.probex = move.axes[0].machinePosition
+
+if !exists(global.probey)
+    global probey = move.axes[1].machinePosition
+else
+    set global.probey = move.axes[1].machinePosition
