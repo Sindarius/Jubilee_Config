@@ -1,18 +1,27 @@
+; A rough G10 nozzle offset from the z probe position for fixed machine point should be set so nozzle can contact probe.
+
+if !exists(param.S)
+    abort "Missing S Param"
+
+T{param.S} ;Set tool to param
+
 echo "Starting probe"
-M98 P"0:/sys/set_touchprobe.g"
+M98 P"0:/sys/set_touchprobe_slow.g" ;Slow for Z probing
 G90 ; Absolute Position
 G0 Z5
-G0 Y150 ;Save move Y
-G0 X150 ; Save move X
+G0 Y150 ;Safe move Y
+G0 X150 ; Safe move X
 
 var top = 2; how far above probe to lift
-var dive = 3 ; sets the dive based on top. top - dive is how far nozzle will go down.
-
+var dive = 2.5 ; sets the dive based on top. top - dive is how far nozzle will go down.
 
 G91 ; Relative movement
+
 G30 S-1 ;Probe Z
-var zHeight = move.axes[2].userPosition
+var zHeight = move.axes[2].machinePosition * -1
 G0 Z{var.top} ; Fixed top value
+
+M98 P"0:/sys/set_touchprobe.g" ;Faster for XY probing
 
 ;Probe to right
 G0 X-10; Move left 15mm -- Give ourselves a little extra space
@@ -66,6 +75,9 @@ G0 Z{var.dive} ;Lift at end
 G90 ; Back to absolute
 G0 Y{((var.front + var.back) / 2)}
 
+G30 S-1 ;Probe Z
+set var.zHeight = move.axes[2].machinePosition * -1
+
 M400 ; wait for all the moves to complete.
 G4 S1
 
@@ -73,5 +85,5 @@ echo "Position " ^ move.axes[0].userPosition ^ "," ^ move.axes[1].userPosition
 echo "machinePos" ^ move.axes[0].machinePosition ^ "," ^ move.axes[1].machinePosition
 echo "Offset " ^ (global.probex - move.axes[0].machinePosition) ^ ", " ^ (global.probey - move.axes[1].machinePosition)
 
-
-
+G10 P{param.S} X{global.probex - move.axes[0].machinePosition} Y{global.probey - move.axes[1].machinePosition} Z{var.zHeight}
+M500

@@ -1,3 +1,6 @@
+if state.currentTool != -1
+    T-1
+    
 M98 P"0:/sys/set_z_probe_slow.g"
 G30
 

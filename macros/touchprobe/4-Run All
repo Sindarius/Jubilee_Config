@@ -1,0 +1,8 @@
+M98 P"0:/macros/touchprobe/run" S0
+M98 P"0:/macros/touchprobe/run" S1
+M98 P"0:/macros/touchprobe/run" S2
+M98 P"0:/macros/touchprobe/run" S3
+T-1
+M500
+M98 P"write_xy_offsets.g"
+M98 P"write_z_offsets.g"

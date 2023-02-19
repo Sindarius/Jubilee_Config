@@ -1,0 +1,15 @@
+if exists(global.abortTest)
+    set global.abortTest = false
+else
+    global abortTest = false
+
+echo >"0:/macros/touchprobe/results.csv" "X,Y,Z"
+
+while true
+    if iterations > 1
+        abort "Complete."
+    M98 P"0:/macros/touchprobe/run" S1
+    echo >>"0:/macros/touchprobe/results.csv" tools[1].offsets[0] ^ "," ^ tools[1].offsets[1] ^ "," ^ tools[1].offsets[2] 
+    T-1 
+    if(global.abortTest)
+        abort "Test aborted"
