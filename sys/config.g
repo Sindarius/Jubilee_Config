@@ -73,20 +73,20 @@ M906 Z1200  ; 70% of 1680mA RMS
 
 ;## TOOLS T0 = 20
 M584 E20.0:21.0:22.0:23.0    ;Extruder
-M569 P20.0 S1 ; Direction
-M569 P21.0 S0 ;Reversed the wiring on this one
-M569 P22.0 S1 ; Direction
-M569 P23.0 S1 ; Direction
+M569 P20.0 S1 D2 ; Direction
+M569 P21.0 S0 D2;Reversed the wiring on this one
+M569 P22.0 S1 D2; Direction
+M569 P23.0 S1 D2 ; Direction
 
 ;#tool movement (4 tools)
 M350 E16:16:16:16 I1           ;microstepping
 M92 E676.2:676.2:676.2:676.2			  ;steps
 M203 E7200:7200:7200:7200            ;max feed rate
-M566 E500:500:500:500             ;jerk
+M566 E700:700:700:700             ;jerk
 M201 E10000:10000:10000:10000           ;max accel
-M906 E1000:1000:1000:1000 I10        ;Current (I Idle%)
-M572 D0:1:2:3 S0.04            ;Pressure Advance
-
+M906 E1000:1000:1000:1000 I90        ;Current (I Idle%)
+;M572 D0:1:2:3 S0.04            ;Pressure Advance
+M572 D0:1:2:3 S0.02
 
 
 ; Kinematics
@@ -210,24 +210,28 @@ M955 P20.0 I54
 
 ;Pebble Wiper
 ;---------------------------------------------------------------------------------
-#M950 F10 C"^0.out6" Q600					;Wipe Servo
-#M106 P10 C"Wipe" 					;Wipe Servo
+;M950 F10 C"^0.out6" Q600					;Wipe Servo
+;M106 P10 C"Wipe" 					;Wipe Servo
 
 
 
 
 M501                        ; Load saved parameters from non-volatile memory
 
-M207 S0.2 F7200 Z0.1  ;Firmware retraction
 
+;PRINT SETTINGS
+;M207 S0.2 F7200 Z0.1  ;Firmware retraction
+M207 S0.5 F7200 Z0.1
 ;M593 P"zvdd" F48.0 ;Input Shaping
+
 
 M98 P"xy_offsets.g"
 M98 P"z_offsets.g"
 
 ;Builder3D Testing
 ;M950 P1 C"out6" Q0 ; door lock output
-;M950 J0 C"^io6.in" ; door status input ; changed from io4.in to io5.in
+;M950 J0 C"!^io6.in" ; door status input ; changed from io4.in to io5.in
+
 
 M586 C"*"
 
